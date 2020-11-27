@@ -48,7 +48,7 @@ max-height:200px;
   margin-right: auto;
   display: block;
   border: 3px solid white;
-  border-radius: 50%;
+  border-radius: 25%;
 }
 .listItem {
   text: bold;
