@@ -9,7 +9,7 @@
     <h1>Omer Korkmaz</h1>
     <hr>
     <p>I'm a Java Developer</p>
-    <a class="button" href="mailto:omervankorkmaz@outlook.com" target="_blank" >Hire me!</a>
+  <button onclick="hireMe()">Hire me!</button>
   </div>
   <div class="main">
     <h2>Studies</h2>
@@ -78,7 +78,7 @@ Scrum-methodologie.</i>
     
   </div>
   <div class="left">
-     <img class="profilImg" src="https://lh3.googleusercontent.com/-oFNiIRS--jA/Xj1iV-c9nTI/AAAAAAAAAKQ/X5GnqKe-wUIWO-x39hpCrHDy23yjUA5HgCEwYBhgLKtMDAL1Ocqy3rer9KixReeaXzJX6YXu0dUY2qh0jNVIlQo_6XbfhbKX7dDr3xMFE6BtAvv0dENFXpeH2Qn1UsyuqJGbTF1HKoNatEorkmTuz78MRXU-6A5jxLfU64eJqvUhwao2bACayFDSZ1_oBHnRHq1d7qrrByVk8oeRYtVEX3f4CNlClZ5Te3S_qqgvsOqVsG7xBKzUn9JzZPjYPntjQvW_FEiqo-C_E5_SJWkKCcKE8qoxVubs64_QOtPfX5mAIXgFiVLpzvBBgKPYVtciuKbC9LVs19YDBAIuXkWwSolLnOr-aE8BPyWJ_F-yUB3fUXlNfV-EUmr5jlZtOi2t58sEQ1qo1oVA92OwtZxkF93iJrMqOGPFP_4V457eOjWGZJoXnPvpMAhHKe5nUAVNekGVxhcFeAajj03A2i6YCIZBLo1UntVPspEWc1DF9sexHTLfo3r4rBuCheNJ2O3U2Nzu5mzYhc1C9gmfAs-TFzvoXHRSFIch7kFxfy5Lqfq_XSU3KG6RaQWvjEsf-VHr7w9wAsryR8l6W7Uq1G05mSQQf-cEsRgJ50qbFS-vkvT97xzMX4ER67Wm3bxUYCAFENH96J4sFTdOjpd6k1Zsd56yb7gYwqIPP_QU/w138-h140-p/20200206_174517.jpg">
+     <img id="profilImg" src="https://lh3.googleusercontent.com/-oFNiIRS--jA/Xj1iV-c9nTI/AAAAAAAAAKQ/X5GnqKe-wUIWO-x39hpCrHDy23yjUA5HgCEwYBhgLKtMDAL1Ocqy3rer9KixReeaXzJX6YXu0dUY2qh0jNVIlQo_6XbfhbKX7dDr3xMFE6BtAvv0dENFXpeH2Qn1UsyuqJGbTF1HKoNatEorkmTuz78MRXU-6A5jxLfU64eJqvUhwao2bACayFDSZ1_oBHnRHq1d7qrrByVk8oeRYtVEX3f4CNlClZ5Te3S_qqgvsOqVsG7xBKzUn9JzZPjYPntjQvW_FEiqo-C_E5_SJWkKCcKE8qoxVubs64_QOtPfX5mAIXgFiVLpzvBBgKPYVtciuKbC9LVs19YDBAIuXkWwSolLnOr-aE8BPyWJ_F-yUB3fUXlNfV-EUmr5jlZtOi2t58sEQ1qo1oVA92OwtZxkF93iJrMqOGPFP_4V457eOjWGZJoXnPvpMAhHKe5nUAVNekGVxhcFeAajj03A2i6YCIZBLo1UntVPspEWc1DF9sexHTLfo3r4rBuCheNJ2O3U2Nzu5mzYhc1C9gmfAs-TFzvoXHRSFIch7kFxfy5Lqfq_XSU3KG6RaQWvjEsf-VHr7w9wAsryR8l6W7Uq1G05mSQQf-cEsRgJ50qbFS-vkvT97xzMX4ER67Wm3bxUYCAFENH96J4sFTdOjpd6k1Zsd56yb7gYwqIPP_QU/w138-h140-p/20200206_174517.jpg">
     <h2>Over</h2>
     <hr>
      <p>Met jarenlange ervaring in business-, project- en productmanagement heb ik al expertise als productmanager in de financiële sector. Ik besloot om een ​​nieuw beroep te krijgen en in de IT-sector te gaan werken. Ik volg de nieuwste technologie op de voet en volg momenteel de JAVA EE Developer cursus. Nu is het tijd om mijn eerste stappen in de JAVA-wereld te zetten. Ik ben op zoek naar een nieuwe baan, waarin ik mijn vaardigheden en ervaringen op het gebied van softwareontwikkeling kan verbeteren.</p>
@@ -99,9 +99,12 @@ Scrum-methodologie.</i>
     <h2>Talen</h2>
     <hr>
     <ul>
-    <li>Turks(Zeer goed)</li>
-    <li>Engels(Goed)</li>
-    <li>Nederlands(Goed)</li>
+    <li id="turks">Turks</li>
+      <button onclick="turksLevel()">Level</button>
+    <li id="engels">Engels</li>
+      <button onclick="engelsLevel()">Level</button>
+    <li id="nederlands">Nederlands</li>
+      <button onclick="nederlandsLevel()">Level</button>
     </ul>
        <h2>Technische Skills</h2>
     <hr>
